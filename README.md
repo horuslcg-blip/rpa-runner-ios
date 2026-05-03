@@ -1,19 +1,40 @@
 # RPA Runner
 
-Jogo mobile desenvolvido em Swift com temática de automação RPA.
+Jogo mobile desenvolvido em Swift inspirado no universo de automação RPA.
 
-## Funcionalidades
-- Sistema de moedas (log e retry)
-- Obstáculos dinâmicos
-- Alteração de velocidade
-- Sistema de progressão (Completed)
+##  Sobre o projeto
+O RPA Runner simula desafios de automação em um ambiente gamificado, onde o jogador precisa evitar obstáculos e coletar recursos estratégicos.
 
-## Gameplay
+##  Mecânicas principais
+- 🟢 Coin Log → aumenta velocidade do jogo
+- 🔵 Coin Retry → reduz velocidade temporariamente
+- ⚠️ Obstáculos dinâmicos com dificuldade progressiva
+- ⏱️ Sistema de progressão com finalização em 1 minuto
+
+##  Gameplay
 https://youtu.be/OuX3wgKBTYk
 
-## Tecnologias
+##  Tecnologias
 - Swift
 - SpriteKit
+- Xcode
 
-## Como rodar
-Abrir no Xcode e executar no simulador ou dispositivo físico
+##  Estrutura do projeto
+- `GameScene.swift` → lógica principal do jogo
+- `GameViewController.swift` → controle de exibição
+- `Assets.xcassets` → sprites e imagens
+- `Sounds/` → efeitos sonoros
+
+##  Como executar
+1. Abrir no Xcode
+2. Rodar no simulador ou dispositivo físico
+
+##  Possíveis melhorias futuras
+- Ranking online (leaderboard)
+- Integração com API
+- Analytics de gameplay
+- Versão multiplataforma
+
+---
+
+Desenvolvido por Leonardo Gomes 
